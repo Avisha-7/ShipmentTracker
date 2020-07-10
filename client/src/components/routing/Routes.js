@@ -272,26 +272,9 @@ const Routes = ({ auth: { isAuthenticated, loading }, logout }, props) => {
             <Fragment>
               <div className={classes.grow} />
               <div className={classes.sectionDesktop}>
-                {/* <IconButton
-                  aria-label="show 17 new notifications"
-                  color="inherit"
-                >
-                  <Badge badgeContent={13} color="secondary">
-                    <NotificationsIcon />
-                  </Badge>
-                </IconButton> */}
-                {/* <div className={classes.rootnotify}> */}
-                <div>
-                  {/* <Button
-                      ref={anchorRef}
-                      aria-controls={openNotify ? 'menu-list-grow' : undefined}
-                      aria-haspopup="true"
-                      onClick={handleToggle}
-                    >
-                      Notifications
-                    </Button> */}
+                
                   <IconButton
-                    aria-label="show 17 new notifications"
+                    aria-label="show 2 new notifications"
                     color="inherit"
                     ref={anchorRef}
                     aria-controls={openNotify ? 'menu-list-grow' : undefined}
